@@ -1,0 +1,120 @@
+body {
+  font-family: "Segoe UI"; /* Update font family */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#particles-js {
+  height: 100vh; /* Full height of the viewport */
+  background: #242222; /* White background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; /* Place particles behind other elements */
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: #ccc;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff00; /* Set background color to white */
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Updated styles for LinkedIn button */
+a.linkedin-button {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #0e76a8; /* Updated color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for linked buttons */
+  border-radius: 10px;
+}
+
+a.linkedin-button:hover {
+  background-color: #075985; /* Darker shade on hover */
+  border-radius: 10px;
+}
+
+/* Updated styles for GitHub button */
+a.github-button {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: lightgray; /* Updated color */
+  color: #333; /* Updated text color */
+  border: none;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  border-radius: 10px;
+}
+
+a.github-button:hover {
+  background-color: #aaa; /* Darker shade on hover */
+}
+
+.resume-button {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for a technological look */
+}
+
+.resume-button:hover {
+  background-color: #333;
+}
+
+/* Adjusting the icon styles */
+button i,
+a i {
+  margin-right: 10px;
+}
+
+/* Updated styles for the icon */
+.icon {
+  width: 20px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Add space to the right of the icon */
+}
+
+main {
+  background-color: #ffffff00; /* Set background color to white */
+  padding: 20px;
+}
+
+canvas {
+  display: block;
+}
+
+/* Adjust the color of the particles */
+.particles-js-canvas-el {
+  background-color: lightgray; /* Tech blue particles background */
+}
