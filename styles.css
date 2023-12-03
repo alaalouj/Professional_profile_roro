@@ -26,9 +26,16 @@ header {
   color: #ccc;
 }
 
+@media (max-width: 600px) {
+  a.linkedin-button {
+    padding: 5px;
+  }
+}
+
 h1 {
   margin: 0; /* Remove default margin for h1 */
   font-size: 2em;
+  width: 100%;
 }
 
 .profile-picture {
@@ -48,7 +55,7 @@ nav {
 a.linkedin-button {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: auto;
   margin-bottom: 10px;
   padding: 15px;
   font-size: 16px;
