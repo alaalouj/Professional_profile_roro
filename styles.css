@@ -16,6 +16,9 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #000;
   padding: 20px;
   text-align: center;
@@ -23,7 +26,14 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin: 0; /* Remove default margin for h1 */
+}
+
+.profile-picture {
+  width: 70px; /* Adjust the width of the profile picture */
+  height: 70px; /* Adjust the height of the profile picture */
+  border-radius: 50%; /* Make the picture round */
+  margin-right: 20px; /* Adjust the right margin to position the picture at the top right */
 }
 
 nav {
